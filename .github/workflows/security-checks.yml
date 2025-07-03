@@ -1,0 +1,11 @@
+- name: Vulnerability Scan
+  run: pip install safety && safety check
+
+- name: Static Analysis
+  run: pip install bandit && bandit -r src/
+
+- name: Dependency Scanning
+  run: pip-audit
+
+- name: License Compliance
+  run: pip-licenses | grep -v "MIT"

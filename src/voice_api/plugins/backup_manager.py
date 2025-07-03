@@ -63,8 +63,12 @@ class LocalBackupManagerModule(BackupManagerModuleBase):
         enc = all_codes.get(user_id)
         if not enc:
             return None
+        # Add error handling for decryption failures
         try:
             codes = decrypt_fernet(enc.encode('latin1'), fernet_key)
+        except cryptography.fernet.InvalidToken:
+            logging.error(f"Decryption failed for user {user_id}")
+            return None
             # If a password is provided, check it (simulate password check for test)
             if password is not None:
                 # Simulate wrong password by failing decryption if password is wrong
@@ -139,3 +143,6 @@ def recover_codes(user_id, recovery_info, module_name=None):
     if not module:
         raise Exception(f"Backup manager module '{module_name}' not found.")
     return module.recover_backup_codes(user_id, recovery_info)
+# Add rotation timestamp logging
+with open(BACKUP_CODES_FILE, 'a') as audit_log:
+    audit_log.write(f"{datetime.utcnow()} - Key rotated for {user_id}\n")
