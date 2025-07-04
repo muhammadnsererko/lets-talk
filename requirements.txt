@@ -2,7 +2,7 @@
 flake8==6.1.0
 mypy==1.10.0
 Flask==3.1.1
-Werkzeug==3.0.2
+# Werkzeug==3.0.2  # Commented out to avoid conflict, let Flask manage Werkzeug version
 pytest==8.1.1
 boto3==1.28.0
 python-dotenv==1.0.0
