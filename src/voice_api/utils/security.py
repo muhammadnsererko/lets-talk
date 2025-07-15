@@ -6,41 +6,52 @@ All logic is local-only and does not leak data externally.
 import os
 import base64
 import hashlib
-from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
+import secrets
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.primitives import padding
 from cryptography.fernet import Fernet, InvalidToken
 
 # Padding helpers for AES block size
-BLOCK_SIZE = 16
+BLOCK_SIZE = 128  # 128 bits for AES
 
 def pad(data):
-    pad_len = BLOCK_SIZE - len(data) % BLOCK_SIZE
-    return data + bytes([pad_len] * pad_len)
+    padder = padding.PKCS7(BLOCK_SIZE).padder()
+    return padder.update(data) + padder.finalize()
 
 def unpad(data):
-    pad_len = data[-1]
-    if pad_len < 1 or pad_len > BLOCK_SIZE or data[-pad_len:] != bytes([pad_len] * pad_len):
-        raise ValueError("Invalid padding.")
-    return data[:-pad_len]
+    unpadder = padding.PKCS7(BLOCK_SIZE).unpadder()
+    return unpadder.update(data) + unpadder.finalize()
 
 def derive_key(password: str, salt: bytes) -> bytes:
     # Derive a 32-byte key using PBKDF2 (AES-256)
     return hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100_000, dklen=32)
 
 def encrypt_aes256(plaintext: bytes, password: str) -> bytes:
-    salt = get_random_bytes(16)
+    salt = secrets.token_bytes(16)
     key = derive_key(password, salt)
-    iv = get_random_bytes(16)
-    cipher = AES.new(key, AES.MODE_CBC, iv)
-    ciphertext = cipher.encrypt(pad(plaintext))
+    iv = secrets.token_bytes(16)
+    padded_data = pad(plaintext)
+    
+    encryptor = Cipher(
+        algorithms.AES(key),
+        modes.CBC(iv)
+    ).encryptor()
+    
+    ciphertext = encryptor.update(padded_data) + encryptor.finalize()
     return base64.b64encode(salt + iv + ciphertext)
 
 def decrypt_aes256(ciphertext_b64: bytes, password: str) -> bytes:
     raw = base64.b64decode(ciphertext_b64)
     salt, iv, ciphertext = raw[:16], raw[16:32], raw[32:]
     key = derive_key(password, salt)
-    cipher = AES.new(key, AES.MODE_CBC, iv)
-    return unpad(cipher.decrypt(ciphertext))
+    
+    decryptor = Cipher(
+        algorithms.AES(key),
+        modes.CBC(iv)
+    ).decryptor()
+    
+    padded_plaintext = decryptor.update(ciphertext) + decryptor.finalize()
+    return unpad(padded_plaintext)
 
 def sha256_hash_file(filepath: str) -> str:
     h = hashlib.sha256()
@@ -56,7 +67,7 @@ def sha256_hash_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 def generate_secure_token(length=32) -> str:
-    return base64.urlsafe_b64encode(get_random_bytes(length)).decode('utf-8')
+    return base64.urlsafe_b64encode(secrets.token_bytes(length)).decode('utf-8')
 
 # Fernet helpers for strong symmetric encryption
 

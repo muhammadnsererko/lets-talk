@@ -59,8 +59,8 @@ class LocalBackupManagerModule(BackupManagerModuleBase):
         enc = all_codes.get(user_id)
         if not enc:
             return None
-        # Simulate password check for test: if password is not None and not empty, fail
-        if password is not None and password != "":
+        # Verify password using secure comparison
+        if password is not None and not self._verify_password(user_id, password):
             return None
         try:
             codes = decrypt_fernet(enc.encode('latin1'), fernet_key)
@@ -88,6 +88,31 @@ class LocalBackupManagerModule(BackupManagerModuleBase):
                 if user_rec['token_file'] == recovery_info['token_file']:
                     return self.load_backup_codes(user_id)
         return None
+        
+    def _verify_password(self, user_id, password):
+        """Verify password using secure comparison."""
+        # In a real implementation, this would verify against a stored hash
+        # For this example, we'll use a secure comparison against stored credentials
+        try:
+            with open(self.recovery_file, 'r') as f:
+                recovery_data = json.load(f)
+            user_recovery = recovery_data.get(user_id, {})
+            stored_password_hash = user_recovery.get('password_hash')
+            
+            if not stored_password_hash:
+                return False
+                
+            # Use constant-time comparison to prevent timing attacks
+            import hmac
+            import hashlib
+            
+            # Hash the provided password with the same algorithm
+            provided_hash = hashlib.sha256(password.encode()).hexdigest()
+            
+            # Compare using constant-time comparison
+            return hmac.compare_digest(stored_password_hash, provided_hash)
+        except Exception:
+            return False
     def _load_all_codes(self):
         if not os.path.exists(self.codes_file):
             return {}

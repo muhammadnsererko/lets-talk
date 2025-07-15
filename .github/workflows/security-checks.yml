@@ -1,11 +1,44 @@
-- name: Vulnerability Scan
-  run: pip install safety && safety check
+name: Security Checks
 
-- name: Static Analysis
-  run: pip install bandit && bandit -r src/
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-- name: Dependency Scanning
-  run: pip-audit
-
-- name: License Compliance
-  run: pip-licenses | grep -v "MIT"
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+    
+    - name: Vulnerability Scan
+      run: |
+        pip install safety==2.4.1
+        safety check
+    
+    - name: Static Analysis
+      run: |
+        pip install bandit==1.7.7
+        bandit -r src/
+    
+    - name: Dependency Scanning
+      run: |
+        pip install pip-audit
+        python -m pip_audit
+    
+    - name: License Compliance
+      run: |
+        pip install pip-licenses
+        python -c "import subprocess, sys; proc = subprocess.run(['pip-licenses'], capture_output=True, text=True); output = proc.stdout; non_mit = [line for line in output.splitlines() if 'MIT' not in line]; print('\n'.join(non_mit)); sys.exit(0 if len(non_mit) == 0 else 1)"

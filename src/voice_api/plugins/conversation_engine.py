@@ -2,7 +2,7 @@
 Modular conversation engine for smart voice interaction and adaptive learning.
 Handles simple spoken interactions and adapts responses based on local analytics and user preferences.
 """
-import random
+import secrets
 from voice_api.plugins import analytics, user_settings
 
 class ConversationEngineBase:
@@ -25,7 +25,8 @@ class SimpleAdaptiveConversationEngine(ConversationEngineBase):
             return "I noticed you replayed the code several times. Would you like me to slow down or change the voice?"
         if prefs.get("voice") == "male":
             return "Would you like to switch to a different voice or adjust the speed?"
-        return random.choice(self.default_prompts)
+        # Use secrets.choice for cryptographically secure random selection
+        return self.default_prompts[secrets.randbelow(len(self.default_prompts))]
     def _get_replay_count(self, user_id):
         # Count replay events from analytics
         try:
