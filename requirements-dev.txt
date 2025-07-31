@@ -1,6 +1,9 @@
-bandit==1.7.7
-safety==2.4.1
-pytest-cov==4.1.0
-pytest==8.1.1
-flake8==7.1.0
-mypy==1.10.0
+# Development and testing dependencies
+pytest==8.3.3
+pytest-cov==6.0.0
+flake8==7.1.1
+mypy==1.13.0
+bandit==1.7.10
+safety==3.2.7
+pip-audit==2.7.3
+pip-licenses==4.5.1

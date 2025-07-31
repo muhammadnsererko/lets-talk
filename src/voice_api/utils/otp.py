@@ -9,4 +9,4 @@ def generate_otp():
     Returns:
         str: A 6-digit OTP.
     """
-    return ''.join(str(secrets.randbelow(10)) for _ in range(6))
+    return str(secrets.randbelow(900000) + 100000)

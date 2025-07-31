@@ -6,8 +6,14 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..',
 from voice_api.plugins import analytics
 from voice_api.utils import otp
 from voice_api.plugins import user_settings
+from tests.base_test import BaseTestCase
 
-class TestAnalyticsPlugin(unittest.TestCase):
+class TestAnalyticsPlugin(BaseTestCase):
+    def setUp(self):
+        self.analytics_file = os.path.join(os.path.dirname(__file__), '..', 'analytics_data.json')
+        self.create_test_file(self.analytics_file)
+        self.module = analytics.get_analytics_module('local')
+
     def run(self, result=None):
         try:
             super().run(result)
@@ -17,19 +23,6 @@ class TestAnalyticsPlugin(unittest.TestCase):
     def test_track_event(self):
         analytics.track_event('test', 'event', {'info': 'test'})
         self.assertTrue(True)
-
-if __name__ == '__main__':
-    unittest.main()
-    def setUp(self):
-        self.analytics_file = os.path.join(os.path.dirname(__file__), '..', 'analytics_data.json')
-        # Clean up before each test
-        if os.path.exists(self.analytics_file):
-            os.remove(self.analytics_file)
-        # Ensure required file exists
-        if not os.path.exists(self.analytics_file):
-            with open(self.analytics_file, 'w') as f:
-                f.write('{}')
-        self.module = analytics.get_analytics_module('local')
 
     def test_track_event_creates_file_and_event(self):
         self.module.track_event('user001', 'test_event', {'foo': 'bar'})
@@ -48,15 +41,10 @@ if __name__ == '__main__':
         self.assertEqual(len(data['user001']), 2)
         self.assertEqual(data['user001'][1]['event_name'], 'event2')
 
-class TestUserSettingsPlugin(unittest.TestCase):
+class TestUserSettingsPlugin(BaseTestCase):
     def setUp(self):
         self.settings_file = os.path.join(os.path.dirname(__file__), '..', 'user_settings.json')
-        if os.path.exists(self.settings_file):
-            os.remove(self.settings_file)
-        # Ensure required file exists
-        if not os.path.exists(self.settings_file):
-            with open(self.settings_file, 'w') as f:
-                f.write('{}')
+        self.create_test_file(self.settings_file)
         self.module = user_settings.get_user_settings_module('local')
 
     def test_set_and_get_preferences(self):
@@ -74,8 +62,8 @@ class TestOTPUtils(unittest.TestCase):
     def test_generate_otp_range(self):
         for _ in range(100):
             code = otp.generate_otp()
-            self.assertTrue(100000 <= code <= 999999)
-            self.assertIsInstance(code, int)
+            self.assertTrue(100000 <= int(code) <= 999999)
+            self.assertIsInstance(int(code), int)
 
 if __name__ == '__main__':
     unittest.main()

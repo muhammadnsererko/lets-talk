@@ -5,7 +5,7 @@ All settings are stored locally for privacy and offline support.
 import os
 import json
 
-SETTINGS_FILE = os.path.join(os.path.dirname(__file__), '..', 'user_settings.json')
+SETTINGS_FILE = 'user_settings.json'
 
 SECURITY_TIERS = ["paranoid", "strict", "standard"]
 

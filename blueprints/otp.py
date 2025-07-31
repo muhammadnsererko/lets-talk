@@ -1,5 +1,8 @@
-from flask import Blueprint, request, jsonify
+import logging
+from flask import Blueprint, request, jsonify, current_app
 from utils.otp_logic import generate_otp, store_otp, speak_otp, get_stored_otp
+
+logger = logging.getLogger(__name__)
 
 otp_blueprint = Blueprint('otp', __name__)
 
