@@ -1,0 +1,33 @@
+Voice API Testing Commands
+=========================
+
+PowerShell Commands (Recommended):
+--------------------------------
+
+1. Test Health Check:
+Invoke-RestMethod -Uri "http://localhost:5000/health" -Method Get
+
+2. Test OTP Generation:
+$body = @{phone_number="+1234567890";message="Your code is 123456"} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:5000/calls/otp" -Method Post -Body $body -ContentType "application/json"
+
+3. Create API Token:
+$body = @{password="admin123"} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:5000/api/tokens" -Method Post -Body $body -ContentType "application/json"
+
+4. Test Protected Endpoint (replace TOKEN with actual token):
+$headers = @{Authorization="Bearer YOUR_TOKEN_HERE"}
+Invoke-RestMethod -Uri "http://localhost:5000/api/protected" -Method Get -Headers $headers
+
+5. Access Dashboard:
+$body = @{password="admin123"} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:5000/api/tokens/dashboard" -Method Post -Body $body -ContentType "application/json"
+
+Alternative Browser Testing:
+----------------------------
+- Health: http://localhost:5000/health
+- Dashboard: http://localhost:5000/api/tokens/dashboard
+
+Run All Tests:
+--------------
+PowerShell: .\test_api_powershell.ps1

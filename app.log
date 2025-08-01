@@ -1,0 +1,516 @@
+2025-08-01 11:46:43,544 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 11:46:43,545 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 11:46:43,572 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 11:46:44,356 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 11:46:44,365 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 12:43:16,371 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2025-08-01 12:43:16,383 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+2025-08-01 12:43:16,390 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2025-08-01 12:43:16,406 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py', reloading
+2025-08-01 12:43:16,429 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2025-08-01 12:43:16,492 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+2025-08-01 12:43:16,499 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-08-01 12:43:16,527 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+2025-08-01 12:43:16,621 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+2025-08-01 12:43:16,644 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2025-08-01 12:43:16,658 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2025-08-01 12:43:16,677 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+2025-08-01 12:43:16,695 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2025-08-01 12:43:16,706 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2025-08-01 12:43:16,711 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\threading.py', reloading
+2025-08-01 12:43:16,714 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_weakrefset.py', reloading
+2025-08-01 12:43:16,724 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py', reloading
+2025-08-01 12:43:16,741 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py', reloading
+2025-08-01 12:43:16,765 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\__init__.py', reloading
+2025-08-01 12:43:16,772 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\enum.py', reloading
+2025-08-01 12:43:16,779 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_compiler.py', reloading
+2025-08-01 12:43:16,782 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_parser.py', reloading
+2025-08-01 12:43:16,790 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_constants.py', reloading
+2025-08-01 12:43:16,792 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_casefix.py', reloading
+2025-08-01 12:43:16,795 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+2025-08-01 12:43:16,803 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\traceback.py', reloading
+2025-08-01 12:43:16,805 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\abc.py', reloading
+2025-08-01 12:43:16,809 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\linecache.py', reloading
+2025-08-01 12:43:16,819 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+2025-08-01 12:43:16,827 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+2025-08-01 12:43:16,831 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+2025-08-01 12:43:16,837 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-08-01 12:43:16,840 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\string.py', reloading
+2025-08-01 12:43:16,945 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\struct.py', reloading
+2025-08-01 12:43:16,960 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\__init__.py', reloading
+2025-08-01 12:43:16,974 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\client.py', reloading
+2025-08-01 12:43:16,994 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py', reloading
+2025-08-01 12:43:17,005 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py', reloading
+2025-08-01 12:43:17,009 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py', reloading
+2025-08-01 12:43:17,012 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py', reloading
+2025-08-01 12:43:17,031 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py', reloading
+2025-08-01 12:43:17,081 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py', reloading
+2025-08-01 12:43:17,096 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py', reloading
+2025-08-01 12:43:17,112 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\base64mime.py', reloading
+2025-08-01 12:43:17,127 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\base64.py', reloading
+2025-08-01 12:43:17,142 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\charset.py', reloading
+2025-08-01 12:43:17,146 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\encoders.py', reloading
+2025-08-01 12:43:17,162 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\quopri.py', reloading
+2025-08-01 12:43:17,171 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py', reloading
+2025-08-01 12:43:17,180 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\random.py', reloading
+2025-08-01 12:43:17,210 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\bisect.py', reloading
+2025-08-01 12:43:17,212 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\socket.py', reloading
+2025-08-01 12:43:17,215 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\selectors.py', reloading
+2025-08-01 12:43:17,223 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+2025-08-01 12:43:17,228 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+2025-08-01 12:43:17,233 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\ipaddress.py', reloading
+2025-08-01 12:43:17,244 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_parseaddr.py', reloading
+2025-08-01 12:43:17,248 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\calendar.py', reloading
+2025-08-01 12:43:17,255 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\locale.py', reloading
+2025-08-01 12:43:17,257 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\message.py', reloading
+2025-08-01 12:43:17,261 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_encoded_words.py', reloading
+2025-08-01 12:43:17,263 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\iterators.py', reloading
+2025-08-01 12:43:17,273 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\ssl.py', reloading
+2025-08-01 12:43:17,499 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 12:43:18,591 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 12:43:18,603 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 12:43:18,744 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\readers.py', reloading
+2025-08-01 12:43:18,747 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\readers.py', reloading
+2025-08-01 12:43:18,840 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_itertools.py', reloading
+2025-08-01 12:43:19,862 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 12:43:21,344 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 12:43:21,358 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 12:43:58,657 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 12:43:58,658 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 12:43:58,677 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 12:43:59,301 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 12:43:59,308 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 12:58:37,740 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 12:58:37,741 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 12:58:37,774 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 12:58:38,460 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 12:58:38,477 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 12:58:55,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\requests\\models.py', reloading
+2025-08-01 12:58:56,031 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 12:58:57,041 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 12:58:57,051 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:00:35,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 13:00:36,573 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:00:37,790 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:00:37,797 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:00:41,277 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 13:00:41,291 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 13:00:42,124 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:00:43,239 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:00:43,249 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:00:45,260 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 13:00:45,264 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 13:00:45,483 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:00:46,588 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:00:46,606 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:02:58,572 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 13:02:58,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 13:02:58,595 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:02:59,397 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:02:59,407 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:47:15,825 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2025-08-01 13:47:15,825 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2025-08-01 13:47:15,834 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+2025-08-01 13:47:15,842 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2025-08-01 13:47:15,842 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2025-08-01 13:47:15,851 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py', reloading
+2025-08-01 13:47:15,875 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2025-08-01 13:47:15,884 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+2025-08-01 13:47:15,901 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-08-01 13:47:15,901 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-08-01 13:47:15,904 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+2025-08-01 13:47:15,904 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+2025-08-01 13:47:15,909 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+2025-08-01 13:47:15,918 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2025-08-01 13:47:15,918 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2025-08-01 13:47:15,926 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2025-08-01 13:47:15,926 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2025-08-01 13:47:15,934 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+2025-08-01 13:47:15,942 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2025-08-01 13:47:15,942 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2025-08-01 13:47:15,950 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2025-08-01 13:47:15,950 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2025-08-01 13:47:15,958 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\threading.py', reloading
+2025-08-01 13:47:15,967 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_weakrefset.py', reloading
+2025-08-01 13:47:16,002 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py', reloading
+2025-08-01 13:47:16,002 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py', reloading
+2025-08-01 13:47:16,010 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py', reloading
+2025-08-01 13:47:16,010 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py', reloading
+2025-08-01 13:47:16,018 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\__init__.py', reloading
+2025-08-01 13:47:16,018 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\__init__.py', reloading
+2025-08-01 13:47:16,023 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\enum.py', reloading
+2025-08-01 13:47:16,032 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_compiler.py', reloading
+2025-08-01 13:47:16,040 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_parser.py', reloading
+2025-08-01 13:47:16,050 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_constants.py', reloading
+2025-08-01 13:47:16,050 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_constants.py', reloading
+2025-08-01 13:47:16,050 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\re\\_casefix.py', reloading
+2025-08-01 13:47:16,067 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+2025-08-01 13:47:16,067 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+2025-08-01 13:47:16,084 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\traceback.py', reloading
+2025-08-01 13:47:16,092 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\traceback.py', reloading
+2025-08-01 13:47:16,102 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\abc.py', reloading
+2025-08-01 13:47:16,110 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\linecache.py', reloading
+2025-08-01 13:47:16,118 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\abc.py', reloading
+2025-08-01 13:47:16,118 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+2025-08-01 13:47:16,126 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+2025-08-01 13:47:16,134 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\linecache.py', reloading
+2025-08-01 13:47:16,134 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+2025-08-01 13:47:16,152 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+2025-08-01 13:47:16,152 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-08-01 13:47:16,160 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\string.py', reloading
+2025-08-01 13:47:16,167 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+2025-08-01 13:47:16,167 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\struct.py', reloading
+2025-08-01 13:47:16,184 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\__init__.py', reloading
+2025-08-01 13:47:16,184 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+2025-08-01 13:47:16,192 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\client.py', reloading
+2025-08-01 13:47:16,192 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-08-01 13:47:16,200 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py', reloading
+2025-08-01 13:47:16,201 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\string.py', reloading
+2025-08-01 13:47:16,201 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py', reloading
+2025-08-01 13:47:16,209 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\struct.py', reloading
+2025-08-01 13:47:16,209 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\__init__.py', reloading
+2025-08-01 13:47:16,217 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\http\\client.py', reloading
+2025-08-01 13:47:16,217 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py', reloading
+2025-08-01 13:47:16,225 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py', reloading
+2025-08-01 13:47:16,233 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py', reloading
+2025-08-01 13:47:16,241 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py', reloading
+2025-08-01 13:47:16,246 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py', reloading
+2025-08-01 13:47:16,253 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py', reloading
+2025-08-01 13:47:16,253 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py', reloading
+2025-08-01 13:47:16,269 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py', reloading
+2025-08-01 13:47:16,269 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py', reloading
+2025-08-01 13:47:16,342 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py', reloading
+2025-08-01 13:47:16,342 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\base64mime.py', reloading
+2025-08-01 13:47:16,444 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py', reloading
+2025-08-01 13:47:16,444 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\base64.py', reloading
+2025-08-01 13:47:16,524 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py', reloading
+2025-08-01 13:47:16,934 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:47:16,934 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:47:18,385 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:47:18,408 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:47:19,058 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:47:19,074 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:48:10,457 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_16_le.py', reloading
+2025-08-01 13:48:10,545 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 13:48:10,545 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 13:48:10,569 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:48:11,449 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:48:11,498 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:48:11,514 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:48:12,443 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:48:12,451 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:05,610 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:05,610 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:06,503 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:06,530 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:07,843 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:07,861 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:07,921 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:07,938 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:10,119 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:10,127 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:10,127 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:10,127 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:10,286 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:11,136 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:11,152 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:11,205 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:12,277 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:12,288 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:12,989 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:12,989 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:13,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:13,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 13:49:13,428 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:13,562 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 13:49:15,085 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:15,093 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 13:49:15,103 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 13:49:15,120 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:24:11,416 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\diagnostic_fix.py', reloading
+2025-08-01 14:24:11,762 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:24:13,731 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:24:13,744 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:24:22,731 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\diagnostic_fix.py', reloading
+2025-08-01 14:24:23,322 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:24:25,840 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:24:25,856 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:24:33,047 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\diagnostic_fix.py', reloading
+2025-08-01 14:24:33,194 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\diagnostic_fix.py', reloading
+2025-08-01 14:24:33,525 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:24:35,389 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:24:35,404 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:26:25,733 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\__init__.py', reloading
+2025-08-01 14:26:25,740 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\__init__.py', reloading
+2025-08-01 14:26:26,089 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:26:26,855 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:26:26,861 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:02,738 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\optparse.py', reloading
+2025-08-01 14:27:02,994 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:04,327 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:04,347 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:04,658 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\fractions.py', reloading
+2025-08-01 14:27:05,956 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:07,198 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:07,203 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:08,619 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\html\\parser.py', reloading
+2025-08-01 14:27:08,619 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_markupbase.py', reloading
+2025-08-01 14:27:09,527 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:11,343 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:11,394 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:28,513 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp437.py', reloading
+2025-08-01 14:27:29,338 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:30,507 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:30,521 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:35,816 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\adjustments.py', reloading
+2025-08-01 14:27:35,830 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\buffers.py', reloading
+2025-08-01 14:27:35,846 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\channel.py', reloading
+2025-08-01 14:27:35,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\compat.py', reloading
+2025-08-01 14:27:35,867 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\parser.py', reloading
+2025-08-01 14:27:35,883 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\proxy_headers.py', reloading
+2025-08-01 14:27:35,886 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\receiver.py', reloading
+2025-08-01 14:27:35,907 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\rfc7230.py', reloading
+2025-08-01 14:27:35,921 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\runner.py', reloading
+2025-08-01 14:27:35,932 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\server.py', reloading
+2025-08-01 14:27:35,935 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\task.py', reloading
+2025-08-01 14:27:35,939 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\trigger.py', reloading
+2025-08-01 14:27:35,949 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\utilities.py', reloading
+2025-08-01 14:27:35,952 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\wasyncore.py', reloading
+2025-08-01 14:27:35,954 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__init__.py', reloading
+2025-08-01 14:27:35,956 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__main__.py', reloading
+2025-08-01 14:27:35,970 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__init__.py', reloading
+2025-08-01 14:27:35,972 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__init__.py', reloading
+2025-08-01 14:27:35,974 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__main__.py', reloading
+2025-08-01 14:27:35,984 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\__main__.py', reloading
+2025-08-01 14:27:35,985 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\adjustments.py', reloading
+2025-08-01 14:27:35,989 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\adjustments.py', reloading
+2025-08-01 14:27:35,994 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\buffers.py', reloading
+2025-08-01 14:27:35,999 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\buffers.py', reloading
+2025-08-01 14:27:36,000 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\channel.py', reloading
+2025-08-01 14:27:36,005 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\channel.py', reloading
+2025-08-01 14:27:36,007 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\compat.py', reloading
+2025-08-01 14:27:36,016 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\compat.py', reloading
+2025-08-01 14:27:36,018 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\parser.py', reloading
+2025-08-01 14:27:36,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\parser.py', reloading
+2025-08-01 14:27:36,022 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\proxy_headers.py', reloading
+2025-08-01 14:27:36,024 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\proxy_headers.py', reloading
+2025-08-01 14:27:36,033 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\receiver.py', reloading
+2025-08-01 14:27:36,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\receiver.py', reloading
+2025-08-01 14:27:36,041 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\rfc7230.py', reloading
+2025-08-01 14:27:36,066 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\rfc7230.py', reloading
+2025-08-01 14:27:36,069 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\runner.py', reloading
+2025-08-01 14:27:36,071 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\runner.py', reloading
+2025-08-01 14:27:36,077 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\server.py', reloading
+2025-08-01 14:27:36,080 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\server.py', reloading
+2025-08-01 14:27:36,082 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\task.py', reloading
+2025-08-01 14:27:36,085 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\task.py', reloading
+2025-08-01 14:27:36,087 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\trigger.py', reloading
+2025-08-01 14:27:36,090 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\trigger.py', reloading
+2025-08-01 14:27:36,095 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\utilities.py', reloading
+2025-08-01 14:27:36,098 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\utilities.py', reloading
+2025-08-01 14:27:36,099 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\wasyncore.py', reloading
+2025-08-01 14:27:36,101 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\waitress\\wasyncore.py', reloading
+2025-08-01 14:27:37,151 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:39,970 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:39,990 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:40,206 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\exceptions.py', reloading
+2025-08-01 14:27:40,214 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\fernet.py', reloading
+2025-08-01 14:27:40,232 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\utils.py', reloading
+2025-08-01 14:27:40,238 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\__about__.py', reloading
+2025-08-01 14:27:40,246 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\__init__.py', reloading
+2025-08-01 14:27:40,249 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\_oid.py', reloading
+2025-08-01 14:27:40,251 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\__init__.py', reloading
+2025-08-01 14:27:40,254 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\backends\\__init__.py', reloading
+2025-08-01 14:27:40,270 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\backends\\openssl\\backend.py', reloading
+2025-08-01 14:27:40,285 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\backends\\openssl\\__init__.py', reloading
+2025-08-01 14:27:40,299 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\bindings\\__init__.py', reloading
+2025-08-01 14:27:40,312 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\binding.py', reloading
+2025-08-01 14:27:40,320 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\_conditional.py', reloading
+2025-08-01 14:27:40,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\__init__.py', reloading
+2025-08-01 14:27:40,345 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\decrepit\\__init__.py', reloading
+2025-08-01 14:27:40,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\decrepit\\ciphers\\algorithms.py', reloading
+2025-08-01 14:27:40,352 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\decrepit\\ciphers\\__init__.py', reloading
+2025-08-01 14:27:40,363 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\cmac.py', reloading
+2025-08-01 14:27:40,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\constant_time.py', reloading
+2025-08-01 14:27:40,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\hashes.py', reloading
+2025-08-01 14:27:40,371 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\hmac.py', reloading
+2025-08-01 14:27:40,380 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\keywrap.py', reloading
+2025-08-01 14:27:40,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\padding.py', reloading
+2025-08-01 14:27:40,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\poly1305.py', reloading
+2025-08-01 14:27:40,387 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\_asymmetric.py', reloading
+2025-08-01 14:27:40,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\_cipheralgorithm.py', reloading
+2025-08-01 14:27:40,398 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\_serialization.py', reloading
+2025-08-01 14:27:40,399 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\__init__.py', reloading
+2025-08-01 14:27:40,401 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dh.py', reloading
+2025-08-01 14:27:40,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dsa.py', reloading
+2025-08-01 14:27:40,406 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ec.py', reloading
+2025-08-01 14:27:40,414 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed25519.py', reloading
+2025-08-01 14:27:40,417 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed448.py', reloading
+2025-08-01 14:27:40,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\padding.py', reloading
+2025-08-01 14:27:40,422 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\rsa.py', reloading
+2025-08-01 14:27:40,423 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\types.py', reloading
+2025-08-01 14:27:40,430 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\utils.py', reloading
+2025-08-01 14:27:40,433 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x25519.py', reloading
+2025-08-01 14:27:40,435 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x448.py', reloading
+2025-08-01 14:27:40,436 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__init__.py', reloading
+2025-08-01 14:27:40,454 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\aead.py', reloading
+2025-08-01 14:27:40,457 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\algorithms.py', reloading
+2025-08-01 14:27:40,468 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\base.py', reloading
+2025-08-01 14:27:40,480 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\modes.py', reloading
+2025-08-01 14:27:40,502 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\__init__.py', reloading
+2025-08-01 14:27:40,519 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\argon2.py', reloading
+2025-08-01 14:27:40,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\concatkdf.py', reloading
+2025-08-01 14:27:40,556 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\hkdf.py', reloading
+2025-08-01 14:27:40,680 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\kbkdf.py', reloading
+2025-08-01 14:27:40,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\pbkdf2.py', reloading
+2025-08-01 14:27:40,802 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\scrypt.py', reloading
+2025-08-01 14:27:40,845 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\x963kdf.py', reloading
+2025-08-01 14:27:40,933 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\__init__.py', reloading
+2025-08-01 14:27:41,010 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\base.py', reloading
+2025-08-01 14:27:41,051 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs12.py', reloading
+2025-08-01 14:27:41,153 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs7.py', reloading
+2025-08-01 14:27:41,501 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:44,951 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:44,966 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:45,453 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\exceptions.py', reloading
+2025-08-01 14:27:45,464 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\fernet.py', reloading
+2025-08-01 14:27:45,498 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\backends\\openssl\\backend.py', reloading
+2025-08-01 14:27:45,504 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\backends\\openssl\\__init__.py', reloading
+2025-08-01 14:27:45,506 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\backends\\__init__.py', reloading
+2025-08-01 14:27:45,512 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\bindings\\openssl\\binding.py', reloading
+2025-08-01 14:27:45,517 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\bindings\\openssl\\_conditional.py', reloading
+2025-08-01 14:27:45,528 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\bindings\\openssl\\__init__.py', reloading
+2025-08-01 14:27:46,417 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:47,750 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:47,765 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:27:48,673 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_internal\\utils\\temp_dir.py', reloading
+2025-08-01 14:27:48,714 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_internal\\utils\\retry.py', reloading
+2025-08-01 14:27:48,770 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_internal\\utils\\misc.py', reloading
+2025-08-01 14:27:48,776 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\bindings\\__init__.py', reloading
+2025-08-01 14:27:48,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\decrepit\\ciphers\\algorithms.py', reloading
+2025-08-01 14:27:48,789 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\decrepit\\ciphers\\__init__.py', reloading
+2025-08-01 14:27:48,803 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\decrepit\\__init__.py', reloading
+2025-08-01 14:27:48,812 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\dh.py', reloading
+2025-08-01 14:27:48,820 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\dsa.py', reloading
+2025-08-01 14:27:48,836 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\ec.py', reloading
+2025-08-01 14:27:48,842 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\ed25519.py', reloading
+2025-08-01 14:27:48,850 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\ed448.py', reloading
+2025-08-01 14:27:48,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\padding.py', reloading
+2025-08-01 14:27:48,870 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\rsa.py', reloading
+2025-08-01 14:27:48,883 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\~ryptography\\hazmat\\primitives\\asymmetric\\types.py', reloading
+2025-08-01 14:27:49,129 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:27:50,838 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:27:50,851 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:28:09,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 14:28:10,145 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:28:11,366 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:28:11,382 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:28:13,781 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 14:28:13,796 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 14:28:15,069 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:28:16,774 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:28:16,790 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 14:28:18,623 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 14:28:18,634 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 14:28:19,561 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 14:28:20,883 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 14:28:20,951 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:12:51,414 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.123:5000
+2025-08-01 15:12:51,414 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 15:12:52,207 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:12:54,779 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:12:54,799 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:13:16,674 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 15:13:16] "GET /health HTTP/1.1" 200 -
+2025-08-01 15:13:51,657 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_final.py', reloading
+2025-08-01 15:13:52,076 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:13:58,993 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:13:59,115 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:14:02,887 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_final.py', reloading
+2025-08-01 15:14:05,528 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:14:10,922 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:14:10,942 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:16:59,465 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\fix_all.py', reloading
+2025-08-01 15:17:00,336 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:17:05,571 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:17:05,655 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:17:09,179 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\fix_all.py', reloading
+2025-08-01 15:17:11,818 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:17:18,680 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:17:18,712 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:38:47,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\auto_fix.py', reloading
+2025-08-01 15:38:47,414 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\auto_fix.py', reloading
+2025-08-01 15:38:48,008 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:38:50,054 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:38:50,141 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:38:59,705 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\auto_fix.py', reloading
+2025-08-01 15:38:59,708 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\auto_fix.py', reloading
+2025-08-01 15:39:00,192 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 15:39:01,451 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 15:39:01,468 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 15:53:45,914 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 15:53:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-01 15:53:45,995 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 15:53:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 15:54:15,596 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 15:54:15] "GET /health HTTP/1.1" 200 -
+2025-08-01 15:54:33,660 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 15:54:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-01 17:10:15,781 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\api_tokens.py', reloading
+2025-08-01 17:10:15,797 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\otp.py', reloading
+2025-08-01 17:10:15,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\server.py', reloading
+2025-08-01 17:10:15,900 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_api.py', reloading
+2025-08-01 17:10:15,902 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_endpoints.py', reloading
+2025-08-01 17:10:15,929 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\utils\\security.py', reloading
+2025-08-01 17:10:16,297 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 17:10:18,343 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 17:10:18,352 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 17:10:54,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\app.py', reloading
+2025-08-01 17:10:54,947 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\auto_fix.py', reloading
+2025-08-01 17:10:54,973 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\diagnostic_fix.py', reloading
+2025-08-01 17:10:54,988 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\fix_all.py', reloading
+2025-08-01 17:10:54,992 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\startup.py', reloading
+2025-08-01 17:10:54,998 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\test_final.py', reloading
+2025-08-01 17:10:55,322 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 17:10:55,975 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 17:10:55,984 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 17:11:23,554 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 17:11:23] "GET /health HTTP/1.1" 200 -
+2025-08-01 17:11:24,656 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\USER\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-01 17:11:24,657 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2025-08-01 17:11:40,053 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 17:11:40] "POST /calls/otp HTTP/1.1" 200 -
+2025-08-01 17:11:40,798 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 17:11:40] "[35m[1mPOST /api/tokens HTTP/1.1[0m" 201 -
+2025-08-01 17:11:40,847 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 17:11:40] "GET /api/protected HTTP/1.1" 200 -
+2025-08-01 17:11:40,881 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 17:11:40] "POST /api/tokens/dashboard HTTP/1.1" 200 -
+2025-08-01 20:10:10,900 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\utils\\security.py', reloading
+2025-08-01 20:10:14,374 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 20:10:24,779 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 20:10:24,877 - werkzeug - INFO -  * Debugger PIN: 979-237-003
+2025-08-01 20:10:42,300 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:10:42] "GET /api/tokens/dashboard?ide_webview_request_time=1754068241887 HTTP/1.1" 200 -
+2025-08-01 20:10:46,750 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:10:46] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-01 20:11:54,595 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:11:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-01 20:12:35,815 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:12:35] "GET /api/tokens/dashboard HTTP/1.1" 200 -
+2025-08-01 20:12:59,443 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:12:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-01 20:13:32,804 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:13:32] "GET /health HTTP/1.1" 200 -
+2025-08-01 20:32:02,778 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 20:32:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-01 21:29:04,665 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 21:29:04] "POST /api/tokens/dashboard?ide_webview_request_time=1754068241887 HTTP/1.1" 200 -
+2025-08-01 21:29:04,907 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 21:29:04] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-01 21:29:26,215 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 21:29:26] "POST /api/tokens/dashboard?ide_webview_request_time=1754068241887 HTTP/1.1" 200 -
+2025-08-01 21:29:26,771 - werkzeug - INFO - 127.0.0.1 - - [01/Aug/2025 21:29:26] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-01 21:30:43,451 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\api_tokens.py', reloading
+2025-08-01 21:30:43,653 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\voice-api\\voice-api\\blueprints\\otp.py', reloading
+2025-08-01 21:30:45,518 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-01 21:30:53,431 - werkzeug - WARNING -  * Debugger is active!
+2025-08-01 21:30:53,484 - werkzeug - INFO -  * Debugger PIN: 979-237-003

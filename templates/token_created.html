@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Created - Let's Talk API</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; }
+        .header { background: #28a745; color: white; padding: 20px; }
+        .header h1 { margin: 0; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .card-header { padding: 20px; border-bottom: 1px solid #eee; }
+        .card-body { padding: 20px; }
+        .token-display { background: #f8f9fa; padding: 15px; border-radius: 4px; font-family: monospace; word-break: break-all; margin: 10px 0; }
+        .warning { background: #fff3cd; border: 1px solid #ffeaa7; color: #856404; padding: 15px; border-radius: 4px; margin: 15px 0; }
+        .btn { padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; margin: 5px; }
+        .btn-primary { background: #007bff; color: white; }
+        .btn-secondary { background: #6c757d; color: white; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Token Created Successfully!</h1>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Your New API Token</h2>
+            </div>
+            <div class="card-body">
+                <div class="warning">
+                    <strong>⚠️ Important:</strong> This token will only be shown once. Please copy and store it securely.
+                </div>
+                
+                <p><strong>Token ID:</strong> {{ token_id }}</p>
+                <p><strong>Your Token:</strong></p>
+                <div class="token-display">{{ token }}</div>
+                
+                <h3>How to Use Your Token</h3>
+                <p>Include this token in the Authorization header of your API requests:</p>
+                <div class="token-display">
+                    curl -H "Authorization: Bearer {{ token }}" http://localhost:5000/api/protected
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <a href="{{ url_for('api_tokens.dashboard') }}" class="btn btn-primary">Back to Dashboard</a>
+                    <button class="btn btn-secondary" onclick="navigator.clipboard.writeText('{{ token }}')">Copy Token</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
