@@ -1,8 +1,12 @@
 import os
 import logging
 from flask import Flask
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'config'))
 from config import Config
 from blueprints.otp import otp_blueprint
+from blueprints.api_tokens import api_tokens_bp
 
 # Configure logging
 logging.basicConfig(
@@ -16,7 +20,8 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 # Register blueprints
-app.register_blueprint(otp_blueprint)
+app.register_blueprint(otp_blueprint, url_prefix='')
+app.register_blueprint(api_tokens_bp, url_prefix='')
 
 # Health check endpoint
 @app.route('/health')

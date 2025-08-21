@@ -8,51 +8,26 @@ import uuid
 from datetime import datetime, timedelta
 from functools import wraps
 from flask import Blueprint, request, jsonify, current_app, render_template, redirect, url_for, session
-from utils.security import generate_secure_token, encrypt_fernet, decrypt_fernet, generate_fernet_key
+from utils.security import generate_secure_token
 
 api_tokens_bp = Blueprint('api_tokens', __name__, url_prefix='/api/tokens')
 
 # Token storage configuration
-TOKEN_STORE_FILE = os.path.join('data', 'api_tokens.json.enc')
+TOKEN_STORE_FILE = 'api_tokens.json'
 DASHBOARD_PASSWORD = os.getenv('DASHBOARD_PASSWORD', 'letstalk123')
 
 # Ensure data directory exists
 os.makedirs('data', exist_ok=True)
 
-def get_fernet_key():
-    """Get or create Fernet encryption key"""
-    key_file = os.path.join('data', '.fernet_key')
-    if os.path.exists(key_file):
-        with open(key_file, 'rb') as f:
-            return f.read()
-    else:
-        key = generate_fernet_key()
-        with open(key_file, 'wb') as f:
-            f.write(key)
-        return key
-
 def load_tokens():
-    """Load encrypted tokens from storage"""
     if not os.path.exists(TOKEN_STORE_FILE):
         return {}
-    
-    try:
-        key = get_fernet_key()
-        with open(TOKEN_STORE_FILE, 'rb') as f:
-            encrypted_data = f.read()
-        decrypted_data = decrypt_fernet(encrypted_data, key)
-        return json.loads(decrypted_data.decode('utf-8'))
-    except Exception:
-        return {}
+    with open(TOKEN_STORE_FILE, 'r') as f:
+        return json.load(f)
 
 def save_tokens(tokens):
-    """Save tokens to encrypted storage"""
-    key = get_fernet_key()
-    data = json.dumps(tokens, indent=2).encode('utf-8')
-    encrypted_data = encrypt_fernet(data, key)
-    
-    with open(TOKEN_STORE_FILE, 'wb') as f:
-        f.write(encrypted_data)
+    with open(TOKEN_STORE_FILE, 'w') as f:
+        json.dump(tokens, f, indent=2)
 
 def validate_api_token(f):
     """Decorator to validate API tokens"""

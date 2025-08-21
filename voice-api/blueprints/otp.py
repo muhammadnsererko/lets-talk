@@ -8,6 +8,7 @@ import uuid
 from datetime import datetime, timedelta
 from flask import Blueprint, request, jsonify, current_app
 import pyttsx3
+from utils.security_middleware import require_token
 
 otp_bp = Blueprint('otp', __name__, url_prefix='/calls')
 
@@ -76,6 +77,7 @@ def speak_otp(phone_number, otp):
         return False
 
 @otp_bp.route('/otp', methods=['POST'])
+@require_token(scopes=['read', 'write'])
 def initiate_otp():
     """Initiate OTP generation and voice call"""
     data = request.get_json()
@@ -114,7 +116,47 @@ def initiate_otp():
         return jsonify({'error': 'Failed to send OTP via voice'}), 500
 
 @otp_bp.route('/otp/verify', methods=['POST'])
+@require_token(scopes=['read', 'write'])
 def verify_otp():
+
+@otp_bp.route('/otp/replay', methods=['POST'])
+@require_token(scopes=['read', 'write'])
+def replay_otp():
+    """Replay the last OTP for the phone number"""
+    data = request.get_json()
+    
+    if not data or 'phone_number' not in data:
+        return jsonify({'error': 'Phone number is required'}), 400
+    
+    phone_number = data['phone_number']
+    
+    otps = load_otps()
+    
+    if phone_number not in otps:
+        return jsonify({'error': 'No OTP found for this phone number'}), 404
+    
+    otp_data = otps[phone_number]
+    
+    # Check if OTP has expired
+    expires_at = datetime.fromisoformat(otp_data['expires_at'])
+    if datetime.now() > expires_at:
+        del otps[phone_number]
+        save_otps(otps)
+        return jsonify({'error': 'OTP has expired'}), 400
+    
+    # Check if already verified (optional, depending on policy)
+    if otp_data.get('verified', False):
+        return jsonify({'error': 'OTP already verified'}), 400
+    
+    # Speak the OTP again
+    success = speak_otp(phone_number, otp_data['otp'])
+    
+    if success:
+        otp_data['replayed_at'] = datetime.now().isoformat()
+        save_otps(otps)
+        return jsonify({'message': 'OTP replayed successfully'}), 200
+    else:
+        return jsonify({'error': 'Failed to replay OTP'}), 500
     """Verify OTP code"""
     data = request.get_json()
     

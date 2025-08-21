@@ -21,8 +21,7 @@ class LocalAnalyticsModule(AnalyticsModuleBase):
                 data = json.load(f)
             except json.JSONDecodeError:
                 data = {}
-            if user_id not in data:
-                data[user_id] = []
+            data.setdefault(user_id, [])
             event = {
                 "event_name": event_name,
                 "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),

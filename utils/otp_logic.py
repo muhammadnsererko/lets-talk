@@ -3,6 +3,9 @@ import os
 import secrets
 import datetime
 import pyttsx3
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'config'))
 from config import Config
 
 OTP_STORE_FILE = Config.OTP_STORE_FILE
